@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tag | Bootstrap Tag | Style Tag -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- Tab -->
+  <title>Hangman</title>
+</head>
+
+<!-- Page Content-->
+<body>
+  <!--TOP OF THE PAGE-->
+  <div class="container-fluid">
+    <!-- Banner -->
+    <div class="row high-wrapper-1">
+      <div class="col-12">
+        <span class="content">
+          <img src="assets/images/Bob's_Burgers4.svg" alt="Bob Burger's Banner"/>
+        </span>
+      </div>
+    </div>
+    <!--COUNTERS (Wins & Guesses-->
+    <div class="row high-wrapper-2">
+      <div class="col-12 col-sm-6 counters">
+        Number of Guesses:
+        <span class="guess-counter">6</span>
+        <br/> Wins:
+        <span class="win-count">0</span>
+      </div>
+      <div class="col-12 col-sm-6">
+        <span class="instructions">Guess The Bob's Burger Character!</span>
+        <span class="already-guessed"></span>
+        <span class="result"></span>
+      </div>
+    </div>
+    <!-- MIDDLE OF THE PAGE -->
+    <div class="row mid-wrapper-1">
+      <div class="col-12">
+        <span class="main">Press or Click to Start!</span>
+        <span class="char-name"></span>
+      </div>
+    </div>
+    <div class="row mid-wrapper-2">
+      <div class="col-12">
+        <span class="letters-to-guess"></span>
+      </div>
+    </div>
+
+    <!-- BOTTOM OF THE PAGE | JS GAME TAG -->
+    <div class="row low-wrapper">
+      <div class="col-12 name"></div>
+      <button class="reset-game">PLAY!!</button>
+    </div>
+  </div>
+
+  <script src="assets/javascript/game.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+    <!--Bob's Burger Theme song via Sound Cloud-->
+    <iframe width="100%" height="50" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307591917&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+
+</body>
+</html>
